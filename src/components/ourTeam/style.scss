@@ -1,0 +1,32 @@
+#our-team {
+  background: url("../../../src/img/Bg.jpg") no-repeat center/cover;
+  padding: 40px 0;
+  margin: 80px 0;
+ .our-team {
+   &--title {
+     text-align: center;
+     h2 {
+       font-size: 25px;
+       font-family: "Josefin Sans",sans-serif;
+       color: #f9f9f9;
+     }
+     p {
+       font-family: "Josefin Sans",sans-serif;
+       font-size: 20px;
+       text-align: center;
+       color: #f9f9f9;
+     }
+   }
+   &--modal {
+     &__content {
+       span {
+         font-size: 40px;
+         cursor: pointer;
+        display: flex;
+         align-items: flex-end;
+         justify-content: flex-end;
+       }
+     }
+   }
+ }
+}
